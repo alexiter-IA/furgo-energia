@@ -6,6 +6,19 @@ otras que usan la app BrightEMS / firmware Sydpower) **sin internet y sin cuenta
 Nació porque la app oficial exige conexión a internet para abrirse, aunque luego habla con la estación
 por Bluetooth: inútil en medio del monte, sin cobertura.
 
+> **English:** Offline Android app to control a **FOSSiBOT F2400** portable power station over
+> Bluetooth LE, with no internet and no account — a replacement for the BrightEMS app, which refuses
+> to open without a connection. Toggles USB / 12 V DC / 230 V AC / LED outputs, shows battery,
+> input and output power, and sets charge/discharge limits. The reverse-engineered protocol
+> (Modbus RTU over BLE) is documented in [PROTOCOLO.md](PROTOCOLO.md).
+
+## Modelos
+
+- **Probado:** FOSSiBOT F2400.
+- **Sin probar, pero usan la misma app BrightEMS y el mismo firmware Sydpower:** FOSSiBOT F3600 Pro,
+  SYDPOWER N052 y otros, y algunos modelos de AFERIY. Si lo pruebas en otro modelo, abre una issue
+  contando qué tal.
+
 ## Qué hace
 
 - Enciende y apaga las salidas **USB**, **12 V**, **220 V** y la **luz LED**.
