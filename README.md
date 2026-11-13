@@ -37,3 +37,7 @@ o borra esa línea. En Windows, `compilar.bat` compila, instala por USB y abre l
 - El mapa de registros se contrastó con [ESP-FBot](https://github.com/Ylianst/ESP-FBot) (Apache-2.0).
 - Proyecto personal, sin relación con FOSSiBOT, Sydpower ni BrightEMS. Úsalo bajo tu responsabilidad:
   la app enciende y apaga salidas de potencia reales.
+
+## Licencia
+
+[MIT](LICENSE).
